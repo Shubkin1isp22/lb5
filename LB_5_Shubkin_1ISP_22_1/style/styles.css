@@ -58,10 +58,9 @@ body {
     width: 400px;
     margin: 9px;
     box-sizing: border-box;
-    display: inline-block;
+    display: left;
     margin-left: 15px;
     margin-right: 15px;
-    margin-top: 40px;
 }
 
 .item_content {
