@@ -1,0 +1,82 @@
+html {
+    height: 100dvh;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+body {
+    background-image: url(../assets/images/bg.jpg);
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.bokpanel {
+    width: 20%;
+    background-color: #FF7F50;
+    
+}
+
+.bokpanel img {
+    display: block;
+    max-width: 80%;
+    margin: 0 auto;
+    pointer-events: none;
+    user-select: none;
+}
+
+.main_content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-left: -15px;
+    margin-top: -40px;
+    text-align: center;
+}
+
+.main_content img {
+    width: 400px;
+    height: 225px;
+}
+
+.item {
+    width: 400px;
+    margin: 9px;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 40px;
+}
+
+.item_content {
+    width: 400px;
+    pointer-events: none;
+    user-select: none;
+}
+
+.item_podpis {
+    width: 100%;
+    height: 23%;
+    background-color: #FF7F50;
+    padding: 5px;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+
